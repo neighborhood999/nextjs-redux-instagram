@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-redux-instagram",
+  "version": "1.0.0",
+  "description": "Building Instagram like by next.js & redux.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": "git@github.com:neighborhood999/nextjs-redux-instagram.git",
+  "author": "Peng Jie <bivinity.pengzjie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.4.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
