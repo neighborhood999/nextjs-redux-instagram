@@ -20,5 +20,8 @@
     "react-redux": "^5.0.5",
     "redux": "^3.6.0",
     "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
   }
 }
