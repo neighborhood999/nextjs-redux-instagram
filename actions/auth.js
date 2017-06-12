@@ -7,7 +7,7 @@ export const requestAccessToken = code => ({
 });
 
 export const receiveAccessToken = ({ access_token, user }) => ({
-  type: REQUEST_ACCESSTOKEN,
+  type: RECEIVE_ACCESSTOKEN,
   accessToken: access_token,
   user
 });

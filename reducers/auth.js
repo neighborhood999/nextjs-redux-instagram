@@ -1,8 +1,9 @@
-import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../actions';
+import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../actions/auth';
 
 const auth = (
   state = {
     needAuthentication: true,
+    code: '',
     accessToken: '',
     user: {}
   },
@@ -10,7 +11,10 @@ const auth = (
 ) => {
   switch (action.type) {
     case REQUEST_ACCESSTOKEN:
-      return { ...state };
+      return {
+        ...state,
+        code: action.code
+      };
     case RECEIVE_ACCESSTOKEN:
       return {
         ...state,
