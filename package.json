@@ -4,7 +4,10 @@
   "description": "Building Instagram like by next.js & redux.",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
   },
   "repository": "git@github.com:neighborhood999/nextjs-redux-instagram.git",
   "author": "Peng Jie <bivinity.pengzjie@gmail.com>",
@@ -23,6 +26,7 @@
     "webpack": "^2.6.1"
   },
   "devDependencies": {
+    "jest": "^20.0.4",
     "redux-logger": "^3.0.6"
   }
 }
