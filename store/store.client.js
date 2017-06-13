@@ -1,14 +1,20 @@
 import { createStore, applyMiddleware, compose } from 'redux';
+import createSagaMiddleware from 'redux-saga';
 import { createLogger } from 'redux-logger';
 import rootReducer from '../reducers';
 
 export const configureStore = preloadedState => {
   const middleware = [];
   const enhancers = [];
+
+  const sagaMiddleware = createSagaMiddleware();
   const logger = createLogger({
     level: 'info',
     collapsed: true
   });
+
+  middleware.push(logger);
+  middleware.push(sagaMiddleware);
 
   // If Redux DevTools Extension is installed use it, otherwise use Redux compose
   const composeEnhancers = process.env.NODE_ENV !== 'production' &&
@@ -20,8 +26,9 @@ export const configureStore = preloadedState => {
   enhancers.push(applyMiddleware(...middleware));
 
   const enhancer = composeEnhancers(...enhancers);
-
   const store = createStore(rootReducer, preloadedState, enhancer);
+
+  store.runSaga = sagaMiddleware.run;
 
   return store;
 };
