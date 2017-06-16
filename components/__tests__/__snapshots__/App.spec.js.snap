@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render children component 1`] = `
+<div
+  id="app"
+>
+  <div
+    className="ui massive menu"
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="instagram circular icon"
+      />
+    </div>
+  </div>
+  <div
+    className="ui container"
+  >
+    <div>
+      Hello World
+    </div>
+  </div>
+</div>
+`;
