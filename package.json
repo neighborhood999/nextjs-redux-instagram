@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "dotenv": "^4.0.0",
+    "fetch-jsonp": "^1.1.1",
     "next": "^2.4.3",
     "next-redux-wrapper": "^1.1.2",
     "prop-types": "^15.5.10",
