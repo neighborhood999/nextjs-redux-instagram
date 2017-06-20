@@ -5,6 +5,7 @@ import { configureStore } from '../store';
 import { requestAccessToken, receiveAccessToken } from '../actions/auth';
 import rootSaga from '../sagas';
 import App from '../components/App';
+import Home from '../components/Home';
 
 export class Root extends React.Component {
   static async getInitialProps({ store, query }) {
@@ -35,7 +36,7 @@ export class Root extends React.Component {
   render() {
     return (
       <App>
-        Hello World
+        <Home />
       </App>
     );
   }
