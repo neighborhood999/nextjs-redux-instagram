@@ -19,15 +19,19 @@
     "next": "^2.4.3",
     "next-redux-wrapper": "^1.1.2",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
+    "recompose": "^0.23.5",
     "redux": "^3.6.0",
     "redux-saga": "^0.15.3",
+    "semantic-ui-react": "^0.68.5",
     "webpack": "^2.6.1"
   },
   "devDependencies": {
+    "enzyme": "^2.8.2",
     "jest": "^20.0.4",
+    "react-test-renderer": "^15.6.1",
     "redux-logger": "^3.0.6"
   }
 }

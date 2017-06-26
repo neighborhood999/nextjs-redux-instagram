@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthButton Component should be \`Authentication\` text when authStatus is \`true\` 1`] = `
+<div
+  className="ui centered grid"
+>
+  <div
+    className="row"
+  >
+    <button
+      className="ui green button"
+      onClick={[Function]}
+      tabIndex={undefined}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Authentication
+      </a>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`AuthButton Component should be \`Profile\` text when authStatus is \`false\` 1`] = `
+<div
+  className="ui centered grid"
+>
+  <div
+    className="row"
+  >
+    <button
+      className="ui blue basic button"
+      onClick={[Function]}
+      tabIndex={undefined}
+    >
+      <a
+        href="#"
+        onClick={[Function]}
+      >
+        Profile
+      </a>
+    </button>
+  </div>
+</div>
+`;
