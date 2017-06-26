@@ -10,6 +10,9 @@ describe('user reducer', () => {
   test('should be handle initial state', () => {
     expect(user(undefined, {})).toEqual({
       isFetching: false,
+      isFetchingPhotos: false,
+      isDone: false,
+      isDonePhotos: false,
       userDetails: {},
       photos: []
     });
@@ -20,6 +23,9 @@ describe('user reducer', () => {
       user(
         {
           isFetching: false,
+          isFetchingPhotos: false,
+          isDone: false,
+          isDonePhotos: false,
           userDetails: {},
           photos: []
         },
@@ -27,6 +33,9 @@ describe('user reducer', () => {
       )
     ).toEqual({
       isFetching: true,
+      isFetchingPhotos: true,
+      isDone: false,
+      isDonePhotos: false,
       userDetails: {},
       photos: []
     });
@@ -37,6 +46,9 @@ describe('user reducer', () => {
       user(
         {
           isFetching: true,
+          isFetchingPhotos: true,
+          isDone: false,
+          isDonePhotos: false,
           userDetails: {},
           photos: []
         },
@@ -44,6 +56,9 @@ describe('user reducer', () => {
       )
     ).toEqual({
       isFetching: false,
+      isFetchingPhotos: true,
+      isDone: true,
+      isDonePhotos: false,
       userDetails: mockUser,
       photos: []
     });
@@ -53,7 +68,10 @@ describe('user reducer', () => {
     expect(
       user(
         {
-          isFetching: true,
+          isFetching: false,
+          isFetchingPhotos: true,
+          isDone: true,
+          isDonePhotos: false,
           userDetails: {},
           photos: []
         },
@@ -61,6 +79,9 @@ describe('user reducer', () => {
       )
     ).toEqual({
       isFetching: false,
+      isFetchingPhotos: false,
+      isDone: true,
+      isDonePhotos: true,
       userDetails: {},
       photos: mockPhotos
     });
