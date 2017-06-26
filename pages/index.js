@@ -7,7 +7,7 @@ import rootSaga from '../sagas';
 import App from '../components/App';
 import Home from '../containers/Home';
 
-export class Root extends React.Component {
+class Root extends React.Component {
   static async getInitialProps({ store, query }) {
     const rootTask = store.runSaga(rootSaga);
     const { auth: { needAuthentication } } = store.getState();

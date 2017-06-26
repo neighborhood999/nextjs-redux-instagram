@@ -1,5 +1,5 @@
 import auth from '../auth';
-import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../../actions/auth';
+import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../../constants/auth';
 
 describe('auth reducer', () => {
   test('should be handle initial state', () => {

@@ -1,5 +1,4 @@
-export const REQUEST_ACCESSTOKEN = 'REQUEST_ACCESSTOKEN';
-export const RECEIVE_ACCESSTOKEN = 'RECEIVE_ACCESSTOKEN';
+import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../constants/auth';
 
 export const requestAccessToken = code => ({
   type: REQUEST_ACCESSTOKEN,

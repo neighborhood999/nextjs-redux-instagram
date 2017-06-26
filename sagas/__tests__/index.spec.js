@@ -8,8 +8,10 @@ import fetchJSONP from 'fetch-jsonp';
 import { endPoint } from '../../utils';
 import { requestApiToken } from '../../api';
 import { selectAuthState } from '../../reducers/selectors';
+import * as authConstants from '../../constants/auth';
 import * as authActions from '../../actions/auth';
 import * as userActions from '../../actions/user';
+import * as userConstants from '../../constants/user';
 import { mockUser, mockPhotos } from '../../actions/__tests__/user.spec';
 
 describe('redux saga', () => {
@@ -27,7 +29,7 @@ describe('redux saga', () => {
     const generator = watchLoadAccessToken();
 
     expect(generator.next().value).toEqual(
-      take(authActions.REQUEST_ACCESSTOKEN)
+      take(authConstants.REQUEST_ACCESSTOKEN)
     );
 
     expect(generator.next(mockQueryCode).value).toEqual(
@@ -50,7 +52,7 @@ describe('redux saga', () => {
     };
 
     expect(generator.next().value).toEqual(
-      take(userActions.REQUEST_USER_AND_PHOTOS)
+      take(userConstants.REQUEST_USER_AND_PHOTOS)
     );
 
     expect(generator.next().value).toEqual(select(selectAuthState));

@@ -2,7 +2,7 @@ import {
   REQUEST_USER_AND_PHOTOS,
   RECEIVE_USER,
   RECEIVE_SELF_PHOTOS
-} from '../actions/user';
+} from '../constants/user';
 
 const auth = (
   state = {
