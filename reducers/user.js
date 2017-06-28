@@ -2,11 +2,14 @@ import {
   REQUEST_USER_AND_PHOTOS,
   RECEIVE_USER,
   RECEIVE_SELF_PHOTOS
-} from '../actions/user';
+} from '../constants/user';
 
 const auth = (
   state = {
     isFetching: false,
+    isFetchingPhotos: false,
+    isDone: false,
+    isDonePhotos: false,
     userDetails: {},
     photos: []
   },
@@ -16,18 +19,21 @@ const auth = (
     case REQUEST_USER_AND_PHOTOS:
       return {
         ...state,
-        isFetching: true
+        isFetching: true,
+        isFetchingPhotos: true
       };
     case RECEIVE_USER:
       return {
         ...state,
         isFetching: false,
+        isDone: true,
         userDetails: action.info
       };
     case RECEIVE_SELF_PHOTOS:
       return {
         ...state,
-        isFetching: false,
+        isFetchingPhotos: false,
+        isDonePhotos: true,
         photos: action.photos
       };
     default:

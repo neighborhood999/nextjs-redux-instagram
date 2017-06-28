@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Component should render PhotosSection 1`] = `
+<div>
+  <div
+    className="ui active centered inline loader"
+    style={
+      Object {
+        "marginTop": "50px",
+        "paddingTop": "100px",
+      }
+    }
+  />
+  <div
+    className="ui divider"
+  />
+  <div
+    className="ui stackable grid"
+    style={
+      Object {
+        "marginTop": "50px",
+      }
+    }
+  >
+    <div
+      className="four column row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="ui card"
+          href={undefined}
+          onClick={[Function]}
+        >
+          <div
+            className="content"
+          >
+            <img
+              alt={undefined}
+              className="ui avatar image"
+              height={undefined}
+              src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/test1_a.jpg"
+              width={undefined}
+            />
+             
+            bivinity
+            <div
+              className="right floated meta"
+            >
+              <time
+                dateTime="2017-06-07T11:43:10.000Z"
+                title="2017-06-07T11:43:10.000Z"
+              >
+                21 days ago
+              </time>
+            </div>
+          </div>
+          <img
+            alt={undefined}
+            className="ui image"
+            height={undefined}
+            src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/test1_n.jpg"
+            width={undefined}
+          />
+          <div
+            className="content"
+          >
+            <i
+              aria-hidden="true"
+              className="comment icon"
+            />
+             
+            4
+             則留言
+            <span
+              className="right floated"
+            >
+              <i
+                aria-hidden="true"
+                className="heart icon"
+              />
+               
+              40
+               個讚
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Profile Component should render ProfileSection 1`] = `
+<div>
+  <div
+    className="ui stackable grid"
+    style={
+      Object {
+        "marginTop": "50px",
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="four wide column"
+      />
+      <div
+        className="eight wide column"
+      >
+        <img
+          alt={undefined}
+          className="ui circular left floated image"
+          height={undefined}
+          src="http://distillery.s3.amazonaws.com/profiles/test.jpg"
+          width={undefined}
+        />
+        <h3>
+          P.J
+           
+          <small>
+            neighborhood999
+          </small>
+        </h3>
+        <h4>
+          999
+           則貼文
+           | 
+          999
+           位粉絲
+           | 
+          追蹤 
+          999
+           人
+        </h4>
+        <small>
+          A guy who write some code.
+        </small>
+      </div>
+      <div
+        className="four wide column"
+      />
+    </div>
+  </div>
+  <div
+    className="ui divider"
+  />
+  <div
+    className="ui stackable grid"
+    style={
+      Object {
+        "marginTop": "50px",
+      }
+    }
+  >
+    <div
+      className="ui active centered inline loader"
+    />
+  </div>
+</div>
+`;

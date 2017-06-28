@@ -1,4 +1,4 @@
-import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../actions/auth';
+import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../constants/auth';
 
 const auth = (
   state = {

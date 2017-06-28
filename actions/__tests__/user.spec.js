@@ -1,3 +1,8 @@
+import {
+  REQUEST_USER_AND_PHOTOS,
+  RECEIVE_USER,
+  RECEIVE_SELF_PHOTOS
+} from '../../constants/user';
 import * as actions from '../user';
 
 export const mockUser = {
@@ -87,19 +92,19 @@ export const mockPhotos = {
 
 describe('user action', () => {
   test('requestUserAndPhotos should create requestUserAndPhotos action', () => {
-    expect(actions.requestUserAndPhotos()).toEqual({ type: actions.REQUEST_USER_AND_PHOTOS });
+    expect(actions.requestUserAndPhotos()).toEqual({ type: REQUEST_USER_AND_PHOTOS });
   });
 
   test('receiveUser should create receiveUser action', () => {
     expect(actions.receiveUser(mockUser)).toEqual({
-      type: actions.RECEIVE_USER,
+      type: RECEIVE_USER,
       info: mockUser
     });
   });
 
   test('receiveSelfPhotos should create receiveSelfPhotos action', () => {
     expect(actions.receiveSelfPhotos(mockPhotos)).toEqual({
-      type: actions.RECEIVE_SELF_PHOTOS,
+      type: RECEIVE_SELF_PHOTOS,
       photos: mockPhotos
     });
   });

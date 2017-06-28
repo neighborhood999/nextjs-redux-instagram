@@ -1,9 +1,10 @@
+import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../../constants/auth';
 import * as actions from '../auth';
 
 describe('auth action', () => {
   test('requestAccessToken should create requestAccessToken action', () => {
     expect(actions.requestAccessToken(123)).toEqual({
-      type: actions.REQUEST_ACCESSTOKEN,
+      type: REQUEST_ACCESSTOKEN,
       code: 123
     });
   });
@@ -18,7 +19,7 @@ describe('auth action', () => {
         }
       })
     ).toEqual({
-      type: actions.RECEIVE_ACCESSTOKEN,
+      type: RECEIVE_ACCESSTOKEN,
       accessToken: 123456,
       user: {
         id: 1,
