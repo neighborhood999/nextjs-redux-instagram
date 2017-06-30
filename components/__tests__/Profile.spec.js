@@ -78,7 +78,6 @@ describe('Profile Component', () => {
     });
 
     expect(component.find('Card')).toHaveLength(1);
-    expect(component.find('RelativeTime').text()).toBe('21 days ago');
     expect(component.find('CardContent').at(1).find('span').text()).toBe(
       ' 40 個讚'
     );
