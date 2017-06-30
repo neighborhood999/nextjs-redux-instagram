@@ -7,7 +7,7 @@ exports[`App Component should render children component 1`] = `
   <div
     className="ui massive menu"
   >
-    <div
+    <a
       className="item"
       onClick={[Function]}
     >
@@ -15,7 +15,7 @@ exports[`App Component should render children component 1`] = `
         aria-hidden="true"
         className="instagram circular icon"
       />
-    </div>
+    </a>
   </div>
   <div
     className="ui container"

@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { Container, Menu, Icon } from 'semantic-ui-react';
 
 const App = ({ children }) =>
@@ -13,9 +14,11 @@ const App = ({ children }) =>
       />
     </Head>
     <Menu size="massive">
-      <Menu.Item>
-        <Icon name="instagram" circular />
-      </Menu.Item>
+      <Link href="/">
+        <Menu.Item>
+          <Icon name="instagram" circular />
+        </Menu.Item>
+      </Link>
     </Menu>
     <Container>
       {children}
