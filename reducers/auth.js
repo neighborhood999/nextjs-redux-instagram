@@ -1,14 +1,17 @@
+// @flow
+
+import type { AuthState, Action } from '../types';
 import { REQUEST_ACCESSTOKEN, RECEIVE_ACCESSTOKEN } from '../constants/auth';
 
 const auth = (
-  state = {
+  state: AuthState = {
     needAuthentication: true,
     code: '',
     accessToken: '',
     user: {}
   },
-  action
-) => {
+  action: Action
+): AuthState => {
   switch (action.type) {
     case REQUEST_ACCESSTOKEN:
       return {
