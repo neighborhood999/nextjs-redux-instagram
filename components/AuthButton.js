@@ -20,7 +20,7 @@ const AuthButton = ({ authStatus }) =>
     : <Grid centered>
         <Grid.Row>
           <Button basic color="blue">
-            <Link href="#">
+            <Link href="/userProfile">
               <a>Profile</a>
             </Link>
           </Button>
