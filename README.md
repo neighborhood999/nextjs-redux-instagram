@@ -8,9 +8,9 @@
 
 ## Requirement
 
-You need going to [Instagrm Development](https://www.instagram.com/developer/clients/manage/) register a new client, and you will get **Client ID** and **Client Secret**.
+- You need going to [Instagrm Development](https://www.instagram.com/developer/clients/manage/) register a new client, and you will get **Client ID** and **Client Secret**.
 
-Touch a new `.env` and paste your **Client ID** and **Client Secret**, you can reference `.env.example` for setting config.
+- Create a new `.env` and paste your **Client ID** and **Client Secret**, you can reference `.env.example` for setting config.
 
 After above, you need setting `OAuth URL` on `components/AuthButtons.js` at **line 12**:
 
