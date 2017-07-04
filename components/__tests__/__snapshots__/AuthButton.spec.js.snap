@@ -42,7 +42,7 @@ exports[`AuthButton Component should be \`Profile\` text when authStatus is \`fa
       tabIndex={undefined}
     >
       <a
-        href="#"
+        href="/userProfile"
         onClick={[Function]}
       >
         Profile
