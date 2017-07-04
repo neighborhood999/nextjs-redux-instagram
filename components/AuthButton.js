@@ -9,7 +9,11 @@ const AuthButton = ({ authStatus }) =>
     ? <Grid centered>
         <Grid.Row>
           <Button color="green">
-            <Link href="#">
+            <Link
+              href={`https://api.instagram.com/oauth/authorize/?client_id=${process
+                .env
+                .CLIENT_ID}&;redirect_uri=http://localhost:3000/&response_type=code&scope=public_content+follower_list`}
+            >
               <a style={{ color: '#FFFFFF', textDecoration: 'none' }}>
                 Authentication
               </a>

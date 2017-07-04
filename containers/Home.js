@@ -12,7 +12,9 @@ const Home = ({ auth }) =>
       <Header as="h1">
         Instagrammm
         <Header.Subheader style={{ paddingTop: '30px' }}>
-          {auth.needAuthentication ? 'Hello Guest!' : auth.user.username}
+          {auth.needAuthentication
+            ? 'Hello Guest!'
+            : `Hello ${auth.user.username}!`}
         </Header.Subheader>
       </Header>
     </Grid.Row>

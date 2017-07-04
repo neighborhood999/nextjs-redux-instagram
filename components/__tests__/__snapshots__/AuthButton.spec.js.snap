@@ -13,7 +13,7 @@ exports[`AuthButton Component should be \`Authentication\` text when authStatus 
       tabIndex={undefined}
     >
       <a
-        href="#"
+        href="https://api.instagram.com/oauth/authorize/?client_id=undefined&;redirect_uri=http://localhost:3000/&response_type=code&scope=public_content+follower_list"
         onClick={[Function]}
         style={
           Object {
