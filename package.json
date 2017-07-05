@@ -28,8 +28,8 @@
     "recompose": "^0.23.5",
     "redux": "^3.6.0",
     "redux-saga": "^0.15.3",
-    "semantic-ui-react": "^0.68.5",
-    "webpack": "^2.6.1"
+    "semantic-ui-react": "^0.70.0",
+    "webpack": "^3.0.0"
   },
   "devDependencies": {
     "enzyme": "^2.8.2",
