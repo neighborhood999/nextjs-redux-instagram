@@ -12,7 +12,9 @@ const Home = ({ auth }) =>
       <Header as="h1">
         Instagrammm
         <Header.Subheader style={{ paddingTop: '30px' }}>
-          Hello Guest!
+          {auth.needAuthentication
+            ? 'Hello Guest!'
+            : `Hello ${auth.user.username}!`}
         </Header.Subheader>
       </Header>
     </Grid.Row>
@@ -20,7 +22,6 @@ const Home = ({ auth }) =>
       <AuthButton authStatus={auth.needAuthentication} />
     </Grid.Row>
   </Grid>;
-
 
 const mapStateToProps = state => ({
   auth: state.auth
