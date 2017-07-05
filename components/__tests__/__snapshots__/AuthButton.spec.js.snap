@@ -9,6 +9,7 @@ exports[`AuthButton Component should be \`Authentication\` text when authStatus 
   >
     <button
       className="ui green button"
+      disabled={undefined}
       onClick={[Function]}
       tabIndex={undefined}
     >
@@ -38,11 +39,12 @@ exports[`AuthButton Component should be \`Profile\` text when authStatus is \`fa
   >
     <button
       className="ui blue basic button"
+      disabled={undefined}
       onClick={[Function]}
       tabIndex={undefined}
     >
       <a
-        href="#"
+        href="/userProfile"
         onClick={[Function]}
       >
         Profile
