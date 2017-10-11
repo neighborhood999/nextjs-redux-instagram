@@ -46,13 +46,13 @@ exports[`Profile Component should render PhotosSection 1`] = `
              
             bivinity
             <div
-              className="right floated meta"
+              className="meta right floated"
             >
               <time
                 dateTime="2017-06-07T11:43:10.000Z"
                 title="2017-06-07T11:43:10.000Z"
               >
-                a month ago
+                4 months ago
               </time>
             </div>
           </div>
