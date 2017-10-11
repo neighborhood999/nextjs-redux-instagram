@@ -11,6 +11,14 @@
     "test:cov": "jest --coverage",
     "flow": "flow"
   },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/components/__tests__/setup.js"
+    ],
+    "testMatch": [
+      "<rootDir>/*/__tests__/*.spec.js"
+    ]
+  },
   "repository": "git@github.com:neighborhood999/nextjs-redux-instagram.git",
   "author": "Peng Jie <bivinity.pengzjie@gmail.com>",
   "license": "MIT",
@@ -25,16 +33,17 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
     "react-relative-time": "^0.0.7",
-    "recompose": "^0.25.0",
+    "recompose": "^0.26.0",
     "redux": "^3.7.2",
     "redux-saga": "^0.15.6",
-    "semantic-ui-react": "^0.72.0",
+    "semantic-ui-react": "^0.74.2",
     "webpack": "^3.5.5"
   },
   "devDependencies": {
-    "enzyme": "^2.8.2",
-    "flow-bin": "^0.54.0",
-    "jest": "^20.0.4",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-15": "^1.0.1",
+    "flow-bin": "^0.56.0",
+    "jest": "^21.2.1",
     "object-assign-deep": "^0.3.1",
     "react-test-renderer": "^15.6.1",
     "redux-logger": "^3.0.6"

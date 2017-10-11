@@ -11,6 +11,7 @@ exports[`AuthButton Component should be \`Authentication\` text when authStatus 
       className="ui green button"
       disabled={undefined}
       onClick={[Function]}
+      role="button"
       tabIndex={undefined}
     >
       <a
@@ -41,6 +42,7 @@ exports[`AuthButton Component should be \`Profile\` text when authStatus is \`fa
       className="ui blue basic button"
       disabled={undefined}
       onClick={[Function]}
+      role="button"
       tabIndex={undefined}
     >
       <a
