@@ -52,7 +52,7 @@ exports[`Profile Component should render PhotosSection 1`] = `
                 dateTime="2017-06-07T11:43:10.000Z"
                 title="2017-06-07T11:43:10.000Z"
               >
-                4 months ago
+                6 months ago
               </time>
             </div>
           </div>
@@ -113,8 +113,9 @@ exports[`Profile Component should render ProfileSection 1`] = `
       >
         <img
           alt={undefined}
-          className="ui circular left floated image"
+          className="ui left floated image"
           height={undefined}
+          shape="circular"
           src="http://distillery.s3.amazonaws.com/profiles/test.jpg"
           width={undefined}
         />
