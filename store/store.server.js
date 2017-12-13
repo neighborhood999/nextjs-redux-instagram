@@ -8,13 +8,8 @@ export const configureStore = preloadedState => {
 
   middleware.push(sagaMiddleware);
 
-  const store = createStore(
-    rootReducer,
-    preloadedState,
-    applyMiddleware(...middleware)
-  );
-
-  store.runSaga = sagaMiddleware.run;
-
-  return store;
+  return {
+    ...createStore(rootReducer, preloadedState, applyMiddleware(...middleware)),
+    runSaga: sagaMiddleware.run
+  };
 };

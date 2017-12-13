@@ -26,9 +26,9 @@ export const configureStore = preloadedState => {
   enhancers.push(applyMiddleware(...middleware));
 
   const enhancer = composeEnhancers(...enhancers);
-  const store = createStore(rootReducer, preloadedState, enhancer);
 
-  store.runSaga = sagaMiddleware.run;
-
-  return store;
+  return {
+    ...createStore(rootReducer, preloadedState, enhancer),
+    runSaga: sagaMiddleware.run
+  };
 };
