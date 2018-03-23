@@ -37,11 +37,8 @@ exports[`Profile Component should render PhotosSection 1`] = `
             className="content"
           >
             <img
-              alt={undefined}
               className="ui avatar image"
-              height={undefined}
               src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/test1_a.jpg"
-              width={undefined}
             />
              
             bivinity
@@ -52,16 +49,13 @@ exports[`Profile Component should render PhotosSection 1`] = `
                 dateTime="2017-06-07T11:43:10.000Z"
                 title="2017-06-07T11:43:10.000Z"
               >
-                6 months ago
+                10 months ago
               </time>
             </div>
           </div>
           <img
-            alt={undefined}
             className="ui image"
-            height={undefined}
             src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/test1_n.jpg"
-            width={undefined}
           />
           <div
             className="content"
@@ -112,12 +106,9 @@ exports[`Profile Component should render ProfileSection 1`] = `
         className="eight wide column"
       >
         <img
-          alt={undefined}
           className="ui left floated image"
-          height={undefined}
           shape="circular"
           src="http://distillery.s3.amazonaws.com/profiles/test.jpg"
-          width={undefined}
         />
         <h3>
           P.J
