@@ -1,5 +1,7 @@
 # nextjs-redux-instagram
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/neighborhood999/nextjs-redux-instagram.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://img.shields.io/travis/neighborhood999/nextjs-redux-instagram.svg?style=flat-square)](https://travis-ci.org/neighborhood999/nextjs-redux-instagram)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
