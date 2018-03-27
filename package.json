@@ -37,7 +37,7 @@
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
     "semantic-ui-react": "^0.78.2",
-    "webpack": "^3.10.0"
+    "webpack": "^4.3.0"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
