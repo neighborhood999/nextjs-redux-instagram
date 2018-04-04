@@ -36,7 +36,7 @@
     "recompose": "^0.26.0",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
-    "semantic-ui-react": "^0.78.2",
+    "semantic-ui-react": "^0.79.1",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
