@@ -42,7 +42,7 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "flow-bin": "^0.69.0",
+    "flow-bin": "^0.70.0",
     "jest": "^22.1.4",
     "object-assign-deep": "^0.4.0",
     "react-test-renderer": "^16.2.0",
