@@ -41,7 +41,7 @@
     "dotenv": "^6.0.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "flow-bin": "^0.71.0",
+    "flow-bin": "^0.73.0",
     "jest": "^22.1.4",
     "object-assign-deep": "^0.4.0",
     "react-test-renderer": "^16.2.0",
