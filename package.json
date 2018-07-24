@@ -42,7 +42,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "flow-bin": "^0.71.0",
-    "jest": "^22.1.4",
+    "jest": "^23.4.1",
     "object-assign-deep": "^0.4.0",
     "react-test-renderer": "^16.2.0",
     "redux-logger": "^3.0.6",
