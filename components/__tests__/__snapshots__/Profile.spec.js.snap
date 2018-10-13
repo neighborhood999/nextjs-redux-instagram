@@ -30,7 +30,6 @@ exports[`Profile Component should render PhotosSection 1`] = `
       >
         <div
           className="ui card"
-          href={undefined}
           onClick={[Function]}
         >
           <div
