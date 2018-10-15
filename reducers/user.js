@@ -1,6 +1,3 @@
-// @flow
-
-import type { UserState, Action } from '../types';
 import {
   REQUEST_USER_AND_PHOTOS,
   RECEIVE_USER,
@@ -8,7 +5,7 @@ import {
 } from '../constants/user';
 
 const auth = (
-  state: UserState = {
+  state = {
     isFetching: false,
     isFetchingPhotos: false,
     isDone: false,
@@ -16,7 +13,7 @@ const auth = (
     userDetails: {},
     photos: []
   },
-  action: Action
+  action
 ) => {
   switch (action.type) {
     case REQUEST_USER_AND_PHOTOS:
