@@ -105,8 +105,7 @@ exports[`Profile Component should render ProfileSection 1`] = `
         className="eight wide column"
       >
         <img
-          className="ui left floated image"
-          shape="circular"
+          className="ui circular left floated image"
           src="http://distillery.s3.amazonaws.com/profiles/test.jpg"
         />
         <h3>

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { compose, onlyUpdateForPropTypes, setPropTypes } from 'recompose';
-import Link from 'next/link';
 import { Grid, Header } from 'semantic-ui-react';
 import AuthButton from '../components/AuthButton';
 

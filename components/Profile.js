@@ -37,7 +37,7 @@ const withProfileSection = ({ user }) => {
         <Grid.Row>
           <Grid.Column width={4} />
           <Grid.Column width={8}>
-            <Image shape="circular" floated="left" src={profile_picture} />
+            <Image circular floated="left" src={profile_picture} />
             <h3>{username} <small>{full_name}</small></h3>
             <h4>
               {counts.media} 則貼文{' | '}
