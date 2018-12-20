@@ -10,7 +10,6 @@ exports[`AuthButton Component should be \`Authentication\` text when authStatus 
     <button
       className="ui green button"
       onClick={[Function]}
-      role="button"
     >
       <a
         href="https://api.instagram.com/oauth/authorize/?client_id=undefined&;redirect_uri=http://localhost:3000/&response_type=code&scope=public_content+follower_list"
@@ -39,7 +38,6 @@ exports[`AuthButton Component should be \`Profile\` text when authStatus is \`fa
     <button
       className="ui blue basic button"
       onClick={[Function]}
-      role="button"
     >
       <a
         href="/user-profile"
