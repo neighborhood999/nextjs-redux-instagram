@@ -48,7 +48,7 @@ exports[`Profile Component should render PhotosSection 1`] = `
                 dateTime="2017-06-07T11:43:10.000Z"
                 title="2017-06-07T11:43:10.000Z"
               >
-                a year ago
+                2 years ago
               </time>
             </div>
           </div>
