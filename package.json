@@ -34,7 +34,7 @@
     "recompose": "^0.30.0",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
-    "semantic-ui-react": "^0.84.0"
+    "semantic-ui-react": "^0.85.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
