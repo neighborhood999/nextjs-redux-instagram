@@ -41,7 +41,7 @@
     "@babel/preset-env": "^7.1.0",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^23.6.0",
-    "dotenv": "^6.2.0",
+    "dotenv": "^7.0.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "jest": "^23.6.0",
