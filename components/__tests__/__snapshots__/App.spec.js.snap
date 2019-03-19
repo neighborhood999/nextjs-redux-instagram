@@ -14,6 +14,7 @@ exports[`App Component should render children component 1`] = `
       <i
         aria-hidden="true"
         className="instagram circular icon"
+        onClick={[Function]}
       />
     </a>
   </div>
