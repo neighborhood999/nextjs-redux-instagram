@@ -24,30 +24,30 @@
   "dependencies": {
     "axios": "^0.18.0",
     "fetch-jsonp": "^1.1.3",
-    "next": "^7.0.2",
-    "next-redux-wrapper": "^2.1.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
+    "next": "^8.0.3",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
     "react-relative-time": "^0.0.7",
     "recompose": "^0.30.0",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
-    "semantic-ui-react": "^0.84.0"
+    "semantic-ui-react": "^0.86.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
     "babel-core": "^7.0.0-0",
-    "babel-jest": "^23.6.0",
-    "dotenv": "^6.2.0",
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
-    "jest": "^23.6.0",
+    "babel-jest": "^24.5.0",
+    "dotenv": "^7.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "jest": "^24.5.0",
     "object-assign-deep": "^0.4.0",
-    "react-test-renderer": "^16.7.0",
+    "react-test-renderer": "^16.8.4",
     "redux-logger": "^3.0.6",
-    "webpack": "^4.28.0"
+    "webpack": "^4.29.6"
   }
 }
