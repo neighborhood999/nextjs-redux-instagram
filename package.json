@@ -33,7 +33,7 @@
     "react-relative-time": "^0.0.7",
     "recompose": "^0.30.0",
     "redux": "^4.0.1",
-    "redux-saga": "^0.16.2",
+    "redux-saga": "^1.0.5",
     "semantic-ui-react": "^0.87.1"
   },
   "devDependencies": {
