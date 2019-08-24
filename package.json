@@ -24,7 +24,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "fetch-jsonp": "^1.1.3",
-    "next": "^8.1.0",
+    "next": "^9.0.5",
     "next-redux-wrapper": "^3.0.0-alpha.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
